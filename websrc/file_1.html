@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+
+</head>
+
+<title>Interactive Page</title>
+
+<body>
+
+<form method=POST action="../cgi-bin/processRequest.py">
+    <table>
+        <tr>
+            <td>Key</td>
+            <td><input type=text name=key></td>
+        </tr>
+        <tr>
+            <td>First name</td>
+            <td><input type=text name=first_name></td>
+        </tr>
+            <td>Second name</td>
+            <td><input type=text name=second_name></td>
+        </tr>
+            <td>Age</td>
+            <td><input type=text name=age></td>
+        </tr>
+            <td>Genre</td>
+            <td><input type=text name=genre></td>
+        </tr>
+    </table>
+    <p>
+    <input type=submit value="fetch", name=action>
+    <input type=submit value="update", name=action>
+</form>
+
+</body>
+
+</html>
